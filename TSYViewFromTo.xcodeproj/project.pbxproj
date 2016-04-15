@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3C1EECF1CC08E25002D732F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C1EECE1CC08E25002D732F /* main.m */; };
+		F3C1EED21CC08E25002D732F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C1EED11CC08E25002D732F /* AppDelegate.m */; };
+		F3C1EED51CC08E25002D732F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C1EED41CC08E25002D732F /* ViewController.m */; };
+		F3C1EED81CC08E25002D732F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C1EED61CC08E25002D732F /* Main.storyboard */; };
+		F3C1EEDA1CC08E25002D732F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C1EED91CC08E25002D732F /* Assets.xcassets */; };
+		F3C1EEDD1CC08E25002D732F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C1EEDB1CC08E25002D732F /* LaunchScreen.storyboard */; };
+		F3C1EEE81CC08E25002D732F /* TSYViewFromToTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C1EEE71CC08E25002D732F /* TSYViewFromToTests.m */; };
+		F3C1EEF31CC08E25002D732F /* TSYViewFromToUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C1EEF21CC08E25002D732F /* TSYViewFromToUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3C1EEE41CC08E25002D732F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C1EEC21CC08E24002D732F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C1EEC91CC08E24002D732F;
+			remoteInfo = TSYViewFromTo;
+		};
+		F3C1EEEF1CC08E25002D732F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C1EEC21CC08E24002D732F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C1EEC91CC08E24002D732F;
+			remoteInfo = TSYViewFromTo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3C1EECA1CC08E24002D732F /* TSYViewFromTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSYViewFromTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C1EECE1CC08E25002D732F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3C1EED01CC08E25002D732F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3C1EED11CC08E25002D732F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3C1EED31CC08E25002D732F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3C1EED41CC08E25002D732F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3C1EED71CC08E25002D732F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C1EED91CC08E25002D732F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C1EEDC1CC08E25002D732F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C1EEDE1CC08E25002D732F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C1EEE31CC08E25002D732F /* TSYViewFromToTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSYViewFromToTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C1EEE71CC08E25002D732F /* TSYViewFromToTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSYViewFromToTests.m; sourceTree = "<group>"; };
+		F3C1EEE91CC08E25002D732F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C1EEEE1CC08E25002D732F /* TSYViewFromToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSYViewFromToUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C1EEF21CC08E25002D732F /* TSYViewFromToUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSYViewFromToUITests.m; sourceTree = "<group>"; };
+		F3C1EEF41CC08E25002D732F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C1EEC71CC08E24002D732F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1EEE01CC08E25002D732F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1EEEB1CC08E25002D732F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3C1EEC11CC08E24002D732F = {
+			isa = PBXGroup;
+			children = (
+				F3C1EECC1CC08E24002D732F /* TSYViewFromTo */,
+				F3C1EEE61CC08E25002D732F /* TSYViewFromToTests */,
+				F3C1EEF11CC08E25002D732F /* TSYViewFromToUITests */,
+				F3C1EECB1CC08E24002D732F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C1EECB1CC08E24002D732F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1EECA1CC08E24002D732F /* TSYViewFromTo.app */,
+				F3C1EEE31CC08E25002D732F /* TSYViewFromToTests.xctest */,
+				F3C1EEEE1CC08E25002D732F /* TSYViewFromToUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C1EECC1CC08E24002D732F /* TSYViewFromTo */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1EED01CC08E25002D732F /* AppDelegate.h */,
+				F3C1EED11CC08E25002D732F /* AppDelegate.m */,
+				F3C1EED31CC08E25002D732F /* ViewController.h */,
+				F3C1EED41CC08E25002D732F /* ViewController.m */,
+				F3C1EED61CC08E25002D732F /* Main.storyboard */,
+				F3C1EED91CC08E25002D732F /* Assets.xcassets */,
+				F3C1EEDB1CC08E25002D732F /* LaunchScreen.storyboard */,
+				F3C1EEDE1CC08E25002D732F /* Info.plist */,
+				F3C1EECD1CC08E25002D732F /* Supporting Files */,
+			);
+			path = TSYViewFromTo;
+			sourceTree = "<group>";
+		};
+		F3C1EECD1CC08E25002D732F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1EECE1CC08E25002D732F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3C1EEE61CC08E25002D732F /* TSYViewFromToTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1EEE71CC08E25002D732F /* TSYViewFromToTests.m */,
+				F3C1EEE91CC08E25002D732F /* Info.plist */,
+			);
+			path = TSYViewFromToTests;
+			sourceTree = "<group>";
+		};
+		F3C1EEF11CC08E25002D732F /* TSYViewFromToUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1EEF21CC08E25002D732F /* TSYViewFromToUITests.m */,
+				F3C1EEF41CC08E25002D732F /* Info.plist */,
+			);
+			path = TSYViewFromToUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C1EEC91CC08E24002D732F /* TSYViewFromTo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C1EEF71CC08E25002D732F /* Build configuration list for PBXNativeTarget "TSYViewFromTo" */;
+			buildPhases = (
+				F3C1EEC61CC08E24002D732F /* Sources */,
+				F3C1EEC71CC08E24002D732F /* Frameworks */,
+				F3C1EEC81CC08E24002D732F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSYViewFromTo;
+			productName = TSYViewFromTo;
+			productReference = F3C1EECA1CC08E24002D732F /* TSYViewFromTo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3C1EEE21CC08E25002D732F /* TSYViewFromToTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C1EEFA1CC08E25002D732F /* Build configuration list for PBXNativeTarget "TSYViewFromToTests" */;
+			buildPhases = (
+				F3C1EEDF1CC08E25002D732F /* Sources */,
+				F3C1EEE01CC08E25002D732F /* Frameworks */,
+				F3C1EEE11CC08E25002D732F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C1EEE51CC08E25002D732F /* PBXTargetDependency */,
+			);
+			name = TSYViewFromToTests;
+			productName = TSYViewFromToTests;
+			productReference = F3C1EEE31CC08E25002D732F /* TSYViewFromToTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3C1EEED1CC08E25002D732F /* TSYViewFromToUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C1EEFD1CC08E25002D732F /* Build configuration list for PBXNativeTarget "TSYViewFromToUITests" */;
+			buildPhases = (
+				F3C1EEEA1CC08E25002D732F /* Sources */,
+				F3C1EEEB1CC08E25002D732F /* Frameworks */,
+				F3C1EEEC1CC08E25002D732F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C1EEF01CC08E25002D732F /* PBXTargetDependency */,
+			);
+			name = TSYViewFromToUITests;
+			productName = TSYViewFromToUITests;
+			productReference = F3C1EEEE1CC08E25002D732F /* TSYViewFromToUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C1EEC21CC08E24002D732F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = taothinkrain;
+				TargetAttributes = {
+					F3C1EEC91CC08E24002D732F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F3C1EEE21CC08E25002D732F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F3C1EEC91CC08E24002D732F;
+					};
+					F3C1EEED1CC08E25002D732F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F3C1EEC91CC08E24002D732F;
+					};
+				};
+			};
+			buildConfigurationList = F3C1EEC51CC08E24002D732F /* Build configuration list for PBXProject "TSYViewFromTo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C1EEC11CC08E24002D732F;
+			productRefGroup = F3C1EECB1CC08E24002D732F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C1EEC91CC08E24002D732F /* TSYViewFromTo */,
+				F3C1EEE21CC08E25002D732F /* TSYViewFromToTests */,
+				F3C1EEED1CC08E25002D732F /* TSYViewFromToUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C1EEC81CC08E24002D732F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C1EEDD1CC08E25002D732F /* LaunchScreen.storyboard in Resources */,
+				F3C1EEDA1CC08E25002D732F /* Assets.xcassets in Resources */,
+				F3C1EED81CC08E25002D732F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1EEE11CC08E25002D732F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1EEEC1CC08E25002D732F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C1EEC61CC08E24002D732F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C1EED51CC08E25002D732F /* ViewController.m in Sources */,
+				F3C1EED21CC08E25002D732F /* AppDelegate.m in Sources */,
+				F3C1EECF1CC08E25002D732F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1EEDF1CC08E25002D732F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C1EEE81CC08E25002D732F /* TSYViewFromToTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1EEEA1CC08E25002D732F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C1EEF31CC08E25002D732F /* TSYViewFromToUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C1EEE51CC08E25002D732F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C1EEC91CC08E24002D732F /* TSYViewFromTo */;
+			targetProxy = F3C1EEE41CC08E25002D732F /* PBXContainerItemProxy */;
+		};
+		F3C1EEF01CC08E25002D732F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C1EEC91CC08E24002D732F /* TSYViewFromTo */;
+			targetProxy = F3C1EEEF1CC08E25002D732F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3C1EED61CC08E25002D732F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C1EED71CC08E25002D732F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C1EEDB1CC08E25002D732F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C1EEDC1CC08E25002D732F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C1EEF51CC08E25002D732F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3C1EEF61CC08E25002D732F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C1EEF81CC08E25002D732F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSYViewFromTo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TSY.TSYViewFromTo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3C1EEF91CC08E25002D732F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSYViewFromTo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TSY.TSYViewFromTo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3C1EEFB1CC08E25002D732F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSYViewFromToTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TSY.TSYViewFromToTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSYViewFromTo.app/TSYViewFromTo";
+			};
+			name = Debug;
+		};
+		F3C1EEFC1CC08E25002D732F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSYViewFromToTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TSY.TSYViewFromToTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSYViewFromTo.app/TSYViewFromTo";
+			};
+			name = Release;
+		};
+		F3C1EEFE1CC08E25002D732F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSYViewFromToUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TSY.TSYViewFromToUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSYViewFromTo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3C1EEFF1CC08E25002D732F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSYViewFromToUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TSY.TSYViewFromToUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSYViewFromTo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C1EEC51CC08E24002D732F /* Build configuration list for PBXProject "TSYViewFromTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C1EEF51CC08E25002D732F /* Debug */,
+				F3C1EEF61CC08E25002D732F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C1EEF71CC08E25002D732F /* Build configuration list for PBXNativeTarget "TSYViewFromTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C1EEF81CC08E25002D732F /* Debug */,
+				F3C1EEF91CC08E25002D732F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3C1EEFA1CC08E25002D732F /* Build configuration list for PBXNativeTarget "TSYViewFromToTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C1EEFB1CC08E25002D732F /* Debug */,
+				F3C1EEFC1CC08E25002D732F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3C1EEFD1CC08E25002D732F /* Build configuration list for PBXNativeTarget "TSYViewFromToUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C1EEFE1CC08E25002D732F /* Debug */,
+				F3C1EEFF1CC08E25002D732F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C1EEC21CC08E24002D732F /* Project object */;
+}
